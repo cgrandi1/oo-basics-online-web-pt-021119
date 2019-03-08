@@ -1,6 +1,6 @@
 class Shoe
 
-attr_accessible :brand 
+attr_accessor :brand 
 
   def inittialize(brand)
     @brand = brand
